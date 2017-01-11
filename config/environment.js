@@ -12,12 +12,7 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       },
 
-      firebase: {
-       apiKey: 'AIzaSyDJ00Lnq2Cvkc-aBg6XownsEJed_31jIws',
-       authDomain: 'super-rentals-e06b1.firebaseapp.com',
-       databaseURL: 'https://super-rentals-e06b1.firebaseio.com',
-       storageBucket: 'super-rentals-e06b1.appspot.com'
-     },
+
 
 
       EXTEND_PROTOTYPES: {
@@ -25,7 +20,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+     apiKey: 'AIzaSyDJ00Lnq2Cvkc-aBg6XownsEJed_31jIws',
+     authDomain: 'super-rentals-e06b1.firebaseapp.com',
+     databaseURL: 'https://super-rentals-e06b1.firebaseio.com',
+     storageBucket: 'super-rentals-e06b1.appspot.com'
+   },
 
     APP: {
       // Here you can pass flags/options to your application instance
